@@ -14,10 +14,10 @@ Types of projects:
 - Visualization of digital books.
 - Personal diary
 
-###Badges and pictures
+### Badges and pictures
 nothing yet
 
-###Installation
+### Installation
 nothing yet
 
 ### Usage
