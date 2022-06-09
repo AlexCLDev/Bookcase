@@ -1,6 +1,6 @@
 ## Bookcase 📚
 
-###Description
+### Description
 
 ------------
 Profitable writer. Our project will have the name Bookcase, which refers to the organization that offers you a shelf to categorize your books and annotations.
@@ -20,20 +20,20 @@ nothing yet
 ###Installation
 nothing yet
 
-###Usage
+### Usage
 nothing yet
 
-###Support
+### Support
 nothing yet
 
-##Roadmap
+## Roadmap
 1.Carry out the planning phase (Realization of the backlog, repository, application sketch, role assignments)
 2.Development phase
 3.Testing phase
 4.Implementation phase
 5.Test phase
 
-###Contributing
+## Contributing
 Proyecto de la materia Programación 3. Grupo #5
 
 Members:
@@ -43,8 +43,8 @@ Alexander Rafael Coronado López.
 Dhayana Kristal Mejia Familia.
 
 
-###License
+### License
 nothing yet
 
-###Project status
+### Project status
 planning phase
