@@ -27,20 +27,20 @@ nothing yet
 nothing yet
 
 ## Roadmap
-1.Carry out the planning phase (Realization of the backlog, repository, application sketch, role assignments)
-2.Development phase
-3.Testing phase
-4.Implementation phase
-5.Test phase
+1. Carry out the planning phase (Realization of the backlog, repository, application sketch, role assignments)
+2. Development phase
+3. Testing phase
+4. Implementation phase
+5. Test phase
 
 ## Contributing
 Proyecto de la materia Programación 3. Grupo #5
 
 Members:
-Clara Inés Díaz Ángeles.
-Adriel Enmanuel De La Cruz.
-Alexander Rafael Coronado López. 
-Dhayana Kristal Mejia Familia.
+- Clara Inés Díaz Ángeles.
+- Adriel Enmanuel De La Cruz.
+- Alexander Rafael Coronado López. 
+- Dhayana Kristal Mejia Familia.
 
 
 ### License
