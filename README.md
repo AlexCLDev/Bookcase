@@ -15,7 +15,6 @@ Types of projects:
 - Personal diary
 
 ### Badges and pictures
-![image](https://user-images.githubusercontent.com/56055575/172758592-9ed33176-273d-4bb4-90a0-9294c6720583.png)
 ![image](https://user-images.githubusercontent.com/56055575/172758798-b05948f7-571e-46f9-ad31-30204556f2e0.png)
 
 
