@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './Media/log.svg';
+import register from './Media/register.svg'
+import { Login } from './Components/Login/Login';
+import { RutasPrincipales } from './Rutas/RutasPrincipales';
+<script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RutasPrincipales/>
+
     </div>
+
   );
 }
 

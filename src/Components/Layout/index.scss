@@ -1,0 +1,218 @@
+.nav-bar {
+    background: #181818;
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+    transition: 300ms all;
+
+    .logo {
+        display: block;
+        padding: 8px 0;
+        transition: 300ms all;
+    }
+
+    img {
+        display: block;
+        margin: 8px auto;
+        width: 24px;
+        height: auto;
+        transition: 300ms all;
+
+
+        &.sub-logo {
+            width: 50px;
+        }
+    }
+
+    nav {
+        display: block;
+        margin-left: 20px;
+        position: absolute;
+        height: 210px;
+        top: 50%;
+        margin-top: -120px;
+        width: 100%;
+
+        a {
+            font-size: 22px;
+            color: #4d4d4e;
+            display: block;
+            line-height: 51px;
+            height: 51px;
+            position: relative;
+            text-decoration: none;
+
+            i {
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover {
+                color: #ffd700;
+
+                &:after {
+                    opacity: 1;
+                }
+            }
+
+            &:after {
+                content: '';
+                font-size: 12px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                transition: all 0.3s ease-out;
+
+            }
+
+            &:first-child {
+                &::after {
+                    content: 'HOME';
+                }
+            }
+        }
+
+        a.user-link {
+            &:after {
+                content: 'ACCOUNT';
+            }
+        }
+
+        a.workspace-link {
+            &:after {
+                content: 'WORKSPACE';
+            }
+        }
+
+        a.recent-link {
+            &:after {
+                content: 'RECENT FILES';
+            }
+        }
+
+        a.active {
+            svg {
+                color: #ffd700;
+            }
+                color: #ffd700;
+        }
+
+    }
+
+
+
+    ul {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: block;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+
+        li {
+            a {
+                padding: 7px 0;
+                display: block;
+                font-size: 15px;
+                line-height: 16px;
+                color: #4d4d4e;
+
+
+                &:hover svg {
+                    color: #ffd700;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        width: 200px;
+
+        a {
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        .logo {
+            display: block;
+            padding: 8px 0;
+        }
+
+        img {
+            width: 34px;
+
+
+            &.sub-logo {
+                width: 100px;
+            }
+        }
+    }
+}
+
+
+/* Estilos del footer*/
+.footer {
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    position: fixed;
+    background: #181818;
+    color: #4d4d4e;
+    display: flex;
+    margin-left: 4%;
+    bottom: 0;
+    justify-content: center;
+}
+
+
+/* Estilos del co-header o login*/
+.coheader{
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    position: fixed;
+    background: #181818;
+    color: #4d4d4e;
+    display: flex;
+    margin-left: 4%;
+    top: 0;
+    justify-content: center;
+}
+
+.coheader{
+    font-size: 22px;
+    color: #4d4d4e;
+    height: 51px;
+    position: fixed;
+    text-decoration: none;
+}
+
+.coheader a{
+    line-height: 51px;  
+    right: 0;
+    margin-right: 15px;
+    position: fixed;
+    cursor: pointer;
+    color: #4d4d4e;
+
+    &:hover{
+        color:#ffd700;
+    }
+}
+
+hr{
+    background-color: #4d4d4e;
+    color: #4d4d4e; 
+    margin-left: -10px;
+    margin-right: 20px;
+    width: 85%;
+    border-color: #4d4d4e;
+}

@@ -1,0 +1,49 @@
+
+.error{
+    width: 70%;
+    height: auto;
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-left: 15%;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px white;
+    background-color: white;
+    box-shadow: 0px 0px 50px #888888;
+}
+
+.error img{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+}
+
+.error p{
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-right: 40%;
+    font-size: 25px;
+}
+
+.error button{
+    margin-bottom: 10%;
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+    margin-top: 20px;
+}
+
+.error button:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+    box-shadow: 0px 0px 10px black;
+}
