@@ -50,7 +50,7 @@
             }
 
             &:hover {
-                color: #ffd700;
+                color: #1ea7e7;
 
                 &:after {
                     opacity: 1;
@@ -98,9 +98,9 @@
 
         a.active {
             svg {
-                color: #ffd700;
+                color: #0b78a6;
             }
-                color: #ffd700;
+                color: #0b78a6;
         }
 
     }
@@ -126,7 +126,7 @@
 
 
                 &:hover svg {
-                    color: #ffd700;
+                    color: #0b78a6;
                 }
             }
         }
@@ -185,6 +185,7 @@
     margin-left: 4%;
     top: 0;
     justify-content: center;
+    
 }
 
 .coheader{
@@ -198,13 +199,21 @@
 .coheader a{
     line-height: 51px;  
     right: 0;
-    margin-right: 15px;
+    margin-right: 0px;
     position: fixed;
     cursor: pointer;
     color: #4d4d4e;
 
     &:hover{
-        color:#ffd700;
+        color:#0b78a6;
+    }
+
+    &::after{
+        right: 10;
+        position: absolute;
+        padding: 0;
+        display: block;
+        content: 'Iniciar Sesion';
     }
 }
 
@@ -216,3 +225,4 @@ hr{
     width: 85%;
     border-color: #4d4d4e;
 }
+
