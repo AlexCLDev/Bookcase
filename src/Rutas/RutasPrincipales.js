@@ -8,6 +8,8 @@ import { Footer } from '../Components/Layout/Footer'
 import { Header } from '../Components/Layout/Header'
 import './index.scss'
 import { Coheader } from '../Components/Layout/Co-header'
+import { RecentFiles } from '../Components/RecentFiles/RecentFiles'
+import {TextEditor } from '../Components/TextEditor/TextEditor'
 
 export const RutasPrincipales = () => {
   return (
@@ -24,6 +26,8 @@ export const RutasPrincipales = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/home' element={<Home />} />
           <Route path='/account' element={<Account />} />
+          <Route path="/rfiles" element={<RecentFiles/>}/>
+          <Route path="/workspace" element={<TextEditor/>}/>
           <Route path='*' element={<Error />} />
         </Routes>
       </div>

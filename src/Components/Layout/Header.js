@@ -30,9 +30,9 @@ export const Header = () => {
 
                 <NavLink
                     exact="true"
-                    activeclassname="active"
+                    activeclassname="active"    
                     className="recent-link"
-                    to="/contact"
+                    to="/rfiles"
                 >
                     <FontAwesomeIcon icon={faFileAlt} color="#4d4d4e" />
                 </NavLink>
@@ -42,7 +42,7 @@ export const Header = () => {
                     exact="true"
                     activeclassname="active"
                     className="workspace-link"
-                    to="/portfolio"
+                    to="/workspace"
                 >
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
                 </NavLink>

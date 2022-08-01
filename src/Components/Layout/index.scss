@@ -21,7 +21,6 @@
         height: auto;
         transition: 300ms all;
 
-
         &.sub-logo {
             width: 50px;
         }
@@ -58,7 +57,7 @@
             }
 
             &:after {
-                content: '';
+                content: "";
                 font-size: 12px;
                 letter-spacing: 2px;
                 position: absolute;
@@ -68,31 +67,30 @@
                 text-align: center;
                 opacity: 0;
                 transition: all 0.3s ease-out;
-
             }
 
             &:first-child {
                 &::after {
-                    content: 'HOME';
+                    content: "HOME";
                 }
             }
         }
 
         a.user-link {
             &:after {
-                content: 'ACCOUNT';
+                content: "ACCOUNT";
             }
         }
 
         a.workspace-link {
             &:after {
-                content: 'WORKSPACE';
+                content: "WORKSPACE";
             }
         }
 
         a.recent-link {
             &:after {
-                content: 'RECENT FILES';
+                content: "RECENT FILES";
             }
         }
 
@@ -100,12 +98,10 @@
             svg {
                 color: #0b78a6;
             }
-                color: #0b78a6;
+
+            color: #0b78a6;
         }
-
     }
-
-
 
     ul {
         position: absolute;
@@ -123,7 +119,6 @@
                 font-size: 15px;
                 line-height: 16px;
                 color: #4d4d4e;
-
 
                 &:hover svg {
                     color: #0b78a6;
@@ -149,14 +144,12 @@
         img {
             width: 34px;
 
-
             &.sub-logo {
                 width: 100px;
             }
         }
     }
 }
-
 
 /* Estilos del footer*/
 .footer {
@@ -172,9 +165,8 @@
     justify-content: center;
 }
 
-
 /* Estilos del co-header o login*/
-.coheader{
+.coheader {
     width: 100%;
     height: 50px;
     line-height: 40px;
@@ -185,10 +177,12 @@
     margin-left: 4%;
     top: 0;
     justify-content: center;
-    
 }
 
-.coheader{
+.coheader {
+    padding: 0;
+    margin-left: 0px;
+    width: 100%;
     font-size: 22px;
     color: #4d4d4e;
     height: 51px;
@@ -196,33 +190,110 @@
     text-decoration: none;
 }
 
-.coheader a{
-    line-height: 51px;  
-    right: 0;
-    margin-right: 0px;
+.opacity{
+    opacity: 0;
+ }
+ 
+.menusesion {
     position: fixed;
-    cursor: pointer;
-    color: #4d4d4e;
+    right: 0;
+    margin-right: 1%;
+    margin-top: 3.5%;
+    padding: 1.5%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+    width: 14%;
+    z-index: 5;
 
-    &:hover{
-        color:#0b78a6;
-    }
-
-    &::after{
-        right: 10;
-        position: absolute;
-        padding: 0;
+    a {
+        font-size: 22px;
+        color: #4d4d4e;
         display: block;
-        content: 'Iniciar Sesion';
+        line-height: 51px;
+        height: 51px;
+        position: relative;
+        text-decoration: none;
+
+        i {
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+            color: #1ea7e7;
+
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        &:after {
+            content: "";
+            font-size: 12px;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            opacity: 1;
+            transition: all 0.3s ease-out;
+        }
+
+        &:first-child {
+            &::after {
+                content: "ACCOUNT";
+            }
+        }
     }
+
+    a.login {
+        &:after {
+            content: "LOG IN";
+        }
+    }
+
+    a.logout {
+        &:after {
+            content: "LOG OUT";
+        }
+    }
+
 }
 
-hr{
+
+a.active {
+    svg {
+        color: #0b78a6;
+    }
+
+    color: #0b78a6;
+}
+
+
+hr {
     background-color: #4d4d4e;
-    color: #4d4d4e; 
+    color: #4d4d4e;
     margin-left: -10px;
     margin-right: 20px;
     width: 85%;
     border-color: #4d4d4e;
 }
 
+.coheader a {
+  line-height: 51px;
+  right: 0;
+  margin-right: 20px;
+  position: fixed;
+  padding: 0;
+  cursor: pointer;
+  color: #4d4d4e;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    color: #0b78a6;
+  }
+}   

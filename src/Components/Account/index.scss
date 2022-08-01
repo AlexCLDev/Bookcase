@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-left: 5px solid;
+  border-color: #125b7e;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three {
+  background: #125b7e;
+  border-color: #d9d9d9;
+}
+form input[type="radio"] {
+  display: none;
+}
+form .buttonr input[type="submit"] {
+  margin: 35px 0;
+  background: #181818;
+  border-radius: 10px;
+  padding: 15px 25px 15px 25px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #181818;
+
+  &:hover {
+    background: white;
+    color: #181818;
+  }
+  @media (max-width: 584px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category {
+    width: 100%;
+  }
+  .content form .user-details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+@media (max-width: 459px) {
+  .container .content .category {
+    flex-direction: column;
+  }
+}
