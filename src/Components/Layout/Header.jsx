@@ -42,7 +42,7 @@ export const Header = () => {
                     exact="true"
                     activeclassname="active"
                     className="workspace-link"
-                    to="/portfolio"
+                    to="/workspace"
                 >
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
                 </NavLink>
