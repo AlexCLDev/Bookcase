@@ -30,10 +30,17 @@ form .input-box span.details {
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid {
+.user-details .input-box {
+
+  input:focus{
   border-left: 5px solid;
   border-color: #125b7e;
+  }
+
+  input:valid{
+  border-bottom: 5px solid;
+  border-color: #125b7e;
+  }
 }
 h1 {
   margin-bottom: 10px;

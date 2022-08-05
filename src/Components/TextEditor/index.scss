@@ -1,0 +1,44 @@
+.windows {
+  background: white;
+  border-radius: 0px 15px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+  .window {
+    margin-left: 15px;
+    width: 150px;
+    height: 20px;
+    background: #f6f7f9;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+
+    &:first-child {
+        margin-left: 10px;
+        width: 150px;
+        height: 20px;
+        background: hsl(220, 78%, 77%);
+        border-radius: 15px 15px 0px 0px;
+      }
+
+    &:hover{
+        color: yellow;
+        background-color: #125b7e;
+    }
+
+    p{
+        margin-left: 10px;
+    }
+  }
+}
+
+.contente {
+  padding: 5px;
+  border-radius: 5px 5px 0px 0px;
+  background: hsl(220, 78%, 77%);
+}
+
+.editor{
+    min-height: 600px;
+    background: #f6f7f9;
+}

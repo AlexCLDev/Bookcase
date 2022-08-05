@@ -109,6 +109,21 @@ export const Home = () => {
           </a>
           <p>Note</p>
         </article>
+
+        <article className="items2">
+          <a>
+            <FontAwesomeIcon icon={faMusic} color="#4d4d4e" />
+          </a>
+          <p>Note</p>
+        </article>  
+        
+
+        <article className="items2">
+          <a>
+            <FontAwesomeIcon icon={faMusic} color="#4d4d4e" />
+          </a>
+          <p>Note</p>
+        </article>
       </section>
     </div>
   );

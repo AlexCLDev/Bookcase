@@ -1,7 +1,7 @@
 import React from 'react'
 import Error404 from '../../Media/404.svg'
 import { Home } from '../Home/Home'
-import './index.css'
+import './index.scss'
 
 export const Error = () => {
     return (
