@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="/css/style.css">
     </head>
 <body>
-    <p>Navigation</p>
-    <main class="container">
+    
+    {{>navigation}}
+    <main class="container p-4">
         {{>messages}}
         {{> errors}}
         {{{ body}}}
